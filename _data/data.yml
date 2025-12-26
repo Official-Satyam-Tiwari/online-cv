@@ -1,286 +1,194 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: True
+  education: True
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Satyam Tiwari
+  tagline: PhD Researcher in Biophysics
+  avatar: profile.jpg # Ensure a "profile.jpg" exists in your "assets/images/" folder
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  email: satyam.tiwari@doctoral.uj.edu.pl
+  phone: "(+48) 509 482 238"
+  timezone: Europe/Warsaw
+  citizenship: Indian
+  website: https://linkedin.com/in/satyam-tiwari
+  linkedin: satyam-tiwari
+  github: Official-Satyam-Tiwari
+  # Empty/unused fields removed for cleanliness
 
   languages:
     title: Languages
     info:
     - idiom: English
+      level: Professional
+    - idiom: Hindi
       level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Writing & Publishing
       link:
-
-
-    - item: Snowboarding
+    - item: Vedantic Philosophy
       link:
-
-
-    - item: Cooking
+    - item: AI & Machine Learning
       link:
-
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    First-year PhD researcher at Jagiellonian University, focusing on CT-less PET imaging using the J-PET scanner. Aiming to develop a Physics-informed Deep Learning Model customized for Plastic Scintillators. 
+    
+    Experienced in utilizing scattered data for tumor localization and applying TOF methods for geometric precision in 3D PET reconstruction. Strong background in Computational Physics, Machine Learning, and Data Analysis.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: PhD in Biophysics
+    university: Jagiellonian University
+    time: 2028 (Expected)
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      JPET Research Group, Krakow, Poland.
+      Topic: CT-less PET Imaging using the J-PET Scanner.
+      Supervisors: Prof. Paweł Moskal & Dr. Sushil Sharma.
+  - degree: MSc in Physics
+    university: IIT Bombay
+    time: 2024
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Department of Physics.
+      CPI: 8.12/10.
+  - degree: BSc (Hons.) Physics
+    university: University of Delhi
+    time: 2022
+    details: |
+      Kirori Mal College, Delhi.
+      CPI: 9.42/10.
 
 experiences:
-  title: Experiences
+  title: Research Experience
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: PhD Researcher (J-PET Scanner)
+    time: Oct 2024 - Present
+    company: Jagiellonian University, Krakow
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Developing CT-less image reconstruction using scattered and annihilation data from the plastic-scintillator-based J-PET scanner.
+      * Exploring deep learning for denoising and Mutual Information-based techniques for PET image alignment.
+      * Aiming to improve lesion localization and image quality without anatomical priors such as CT or MRI.
+  - role: Project Researcher (MSP-1)
+    time: July 2023 - Nov 2024
+    company: IIT Bombay
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Project: Using Scattered Data in PET Scan Imaging (Supervisor: Prof. Pragya Das).
+      * Validated Dr. S. Ghosh's approach for tumor localization using energy-based scattered data with MATLAB GUI tools.
+      * Developed a custom 2D TOF-based model and collaborated to test accuracy using artificial phantom data.
+      * Employed Desmos-based visualization to qualitatively assess mathematical model behavior.
+  - role: Project Researcher (MSP-2)
+    time: Jan 2024 - Apr 2024
+    company: IIT Bombay
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Project: Designing a 3D Model for Scattered Data in PET Imaging.
+      * Applied TOF method to estimate annihilation points, enhancing geometric precision in 3D PET reconstruction.
+      * Used Meshgrid and Fsolve to solve sphere-line intersection problems in 3D space.
+  - role: Content Developer
+    time: Sept 2022 - Dec 2022
+    company: Vizuara (Startup)
+    details: |
+      * Developed K-12 educational animation videos using Manim.
+      * Collaborated with colleagues to enhance student engagement by developing high quality visuals.
 
 certifications:
-  title: Certifications
+  title: Certifications & Grants
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: Machine Learning Specialization
+    start: 2023
+    end: 
+    organization: Coursera (Andrew Ng)
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+      Supervised Learning, Advanced Learning Algorithms, and Unsupervised Learning.
+  - name: Neural Networks and Deep Learning
+    start: 2023
+    end: 
+    organization: DeepLearning.AI
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Foundational deep learning techniques and neural network architectures.
+  - name: TD-UJ Grant Recipient
+    start: 2025
+    end: 
+    organization: TD-UJ
+    details: Scholastic achievement grant.
+  - name: PROM Grant Recipient
+    start: 2025
+    end: 
+    organization: NAWA
+    details: Academic mobility grant.
 
 projects:
-  title: Projects
+  title: Course Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Selected computational and electronics projects undertaken during academic coursework.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
+  - title: Computational Physics - Oscillator System
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: "Solved non-linear differential equations using Euler, RK2, and RK4 methods; simulated forced harmonic and anharmonic oscillator models."
 
-  - title: Tempo
+  - title: Wireless Notice Board via Bluetooth
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    tagline: "Designed and implemented a Bluetooth-controlled notice board using Arduino; collaborated on circuit design and programming."
 
 publications:
-  title: Publications
+  title: Conferences & Symposia
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    Presentations, organization, and attendance at scientific conferences.
   papers:
-  - title: The Art of Computer Programming
+  - title: 1st Total Body J-PET - General Meeting 2024
     link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    authors: Presenter
+    conference: "Jagiellonian University, Krakow (Oct 2024)"
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+  - title: 2nd Sympo on New Trends in Nuclear and Medical Physics
     link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    authors: Organizer & Presenter
+    conference: "UJ & AGH (Sep 2025)"
 
-  - title: A syntax directed compiler for Algol 60
+  - title: AI in Medical Imaging - Summer School
     link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+    authors: Attendee
+    conference: "Radboud University, Netherlands (Jun-Jul 2025)"
+
+  - title: SymPhy 2024
+    link: "#"
+    authors: Attendee
+    conference: "Department of Physics, IIT Bombay (Mar 2024)"
 
 recommendations:
-  title: Recommendations
+  title: References
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+  - person: Prof. dr hab. Paweł Moskal
+    email: ufmoskal@googlemail.com
+    phone: "(+48 12) 664 4558"
+    role: Professor at Jagiellonian University
+    recommendation: Satyam is a driven researcher tackling the challenging domain of CT-less PET imaging. His ability to integrate physics-informed deep learning with J-PET technology shows immense promise. He has already demonstrated strong academic leadership as a Doctoral Representative and by securing competitive grants like the TD-UJ.
+      
+  - person: Dr. Sushil Sharma
+    email: sushil.sharma@uj.edu.pl
+    phone: "(+48 12) 664 4530"
+    role: Assistant Professor at Jagiellonian University
+    recommendation: Satyam brings a robust computational background from IIT Bombay to our team. His current work on applying mutual information techniques and deep learning for signal denoising demonstrates great technical depth. He is a quick learner who effectively combines simulation tools like GATE with advanced data analysis.
 
 skills:
-  title: Skills &amp; Proficiency
-
+  title: Skills & Proficiency
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: Python (Pandas, NumPy)
     level: 95%
-
-  - name: Ruby on Rails
+  - name: C++ & ROOT
     level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  - name: Machine Learning (Scikit-Learn, TF)
+    level: 90%
+  - name: Simulations (GATE/Geant4)
+    level: 80%
+  - name: SQL & Databases
+    level: 75%
+  - name: Visualization (Matplotlib, Tableau)
+    level: 85%
